@@ -1,28 +1,39 @@
 <template>
   <Container>
-    <h2 class="font-heading text-5xl text-center mb-20">Collection</h2>
-    <div class="grid grid-flow-col grid-rows-3 gap-4">
-      <div
-        class="bg-white drop-shadow-lg rounded-xl px-5 py-7 bg-[url('/dummy/collections/chairs.png')] h-52 bg-contain bg-right bg-no-repeat"
-      >
-        <h3 class="text-3xl font-heading">
-          <span class="border-b border-light-50"> Chairs </span>
-        </h3>
+    <h2 class="text-5xl text-center">Interior Plant Reference</h2>
+    <p class="text-center font-light mt-7">
+      make your home so comfortable with refreshing plants
+    </p>
+    <div class="grid grid-flow-col grid-cols-2 grid-rows-2 gap-4 mt-20">
+      <div class="bg-white drop-shadow-lg rounded-[60px] relative overflow-hidden group">
+        <img
+          src="/dummy/interior-1.png"
+          alt=""
+          class="object-fill w-full h-full"
+        />
+        <div class="group-hover:opacity-100 opacity-0 transition ease-in-out duration-300 absolute inset-0 flex justify-center items-center bg-black/30 z-10 text-white">
+          <h3 class="text-3xl">living room</h3>
+        </div>
       </div>
-      <div class="row-span-2 bg-white drop-shadow-lg rounded-xl px-5 py-7  bg-[url('/dummy/collections/sofas.png')] bg-contain bg-no-repeat flex justify-end">
-        <h3 class="text-3xl font-heading">
-          <span class="border-b border-light-50"> Sofas</span>
-        </h3>
+      <div class="bg-white drop-shadow-lg rounded-[60px] relative overflow-hidden group">
+        <img
+          src="/dummy/interior-3.png"
+          alt=""
+          class="object-fill w-full h-full"
+        />
+        <div class="group-hover:opacity-100 opacity-0 transition ease-in-out duration-300 absolute inset-0 flex justify-center items-center bg-black/30 z-10 text-white">
+          <h3 class="text-3xl">study room</h3>
+        </div>
       </div>
-      <div class="row-span-2 bg-white drop-shadow-lg rounded-xl px-5 py-7 bg-[url('/dummy/collections/tables.png')] bg-contain bg-right bg-no-repeat">
-        <h3 class="text-3xl font-heading">
-          <span class="border-b border-light-50"> Tables </span>
-        </h3>
-      </div>
-      <div class="bg-white drop-shadow-lg rounded-xl px-5 py-7 bg-[url('/dummy/collections/lamps.png')] bg-contain bg-no-repeat flex justify-end items-end">
-        <h3 class="text-3xl font-heading">
-          <span class="border-b border-light-50"> Lamps</span>
-        </h3>
+      <div class="row-span-2 bg-white drop-shadow-lg rounded-[60px] relative overflow-hidden group">
+        <img
+          src="/dummy/interior-2.png"
+          alt=""
+          class="object-fill w-full h-full"
+        />
+        <div class="group-hover:opacity-100 opacity-0 transition ease-in-out duration-300 absolute inset-0 flex justify-center items-center bg-black/30 z-10 text-white">
+          <h3 class="text-3xl">dressing room</h3>
+        </div>
       </div>
     </div>
   </Container>

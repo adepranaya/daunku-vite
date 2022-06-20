@@ -22,23 +22,31 @@ const props = defineProps({
     required: true,
   },
 });
-
 </script>
 
 <template>
   <div
-    class="bg-white drop-shadow-lg rounded-xl px-5 py-7 flex flex-col justify-between"
+    class="bg-periwinkle-gray drop-shadow-lg rounded-3xl flex flex-col justify-between relative"
   >
-    <div class="mb-6">
-      <img :src="link" alt="" height="100" class="h-60" />
-      <div class="flex justify-between">
+    <div>
+      <img :src="link" alt="" height="100" class="h-60 -mt-24" />
+      <div class="bg-white px-5 py-7 rounded-3xl mt-6">
         <h2 class="font-heading text-2xl">{{ name }}</h2>
-        <span class="font-bold">{{ price }}</span>
+        <div class="flex gap-2">
+          <img src="/assets/icons/star.svg" alt="">
+          <img src="/assets/icons/star.svg" alt="">
+          <img src="/assets/icons/star.svg" alt="">
+          <img src="/assets/icons/star.svg" alt="">
+          <img src="/assets/icons/star.svg" alt="">
+        </div>
+
+        <div class="flex justify-between flex-1 items-center mt-12">
+          <span class="text-2xl">{{ price }}</span>
+          <button  class="w-14 h-14">
+            <img src="/assets/icons/akar-icons_circle-plus-fill.svg" alt=""/>
+          </button>
+        </div>
       </div>
-      <p>{{ description }}</p>
     </div>
-    <button class="bg-primary px-5 py-2 rounded-2xl text-white">
-      Add to Chart
-    </button>
   </div>
 </template>

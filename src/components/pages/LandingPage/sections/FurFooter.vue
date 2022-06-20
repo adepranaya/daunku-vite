@@ -1,36 +1,58 @@
 <template>
-  <footer class="bg-primary text-white">
-    <Container class="flex justify-between  py-12">
-      <div class="flex items-start gap-8">
-        <!-- assets -->
-        <img src="/logo-white.svg" alt="" />
-        <div>
-          <h2 class="font-heading text-2xl mb-3">Navigation</h2>
-          <ul class="font-thin">
-            <li>Product</li>
-            <li>Inspiration</li>
-            <li>About</li>
-            <li>Blog</li>
-          </ul>
-        </div>
-        <div>
-          <h2 class="font-heading text-2xl mb-3">Collection</h2>
-          <ul class="font-thin">
-            <li>Chairs</li>
-            <li>Tables</li>
-            <li>Sofas</li>
-            <li>Lamps</li>
-          </ul>
+  <footer class="bg-gradient-to-r from-dark1 to-dark text-white">
+    <Container class="flex justify-between gap-8 py-12">
+      <div class="w-1/2">
+        <div class="font-bold font-heading text-4xl">NewsLetter</div>
+        <div class="relative w-full flex mt-8">
+          <input
+            type="text"
+            class="bg-white/20 py-4 pl-7 pr-32 border-white rounded-full border w-full"
+            placeholder="Enter your email"
+          />
+          <button
+            class="absolute top-2 right-2 flex items-center justify-center bg-gradient-primary rounded-full px-4 py-2"
+          >
+            subcribe
+          </button>
         </div>
       </div>
-      <div class="flex flex-col items-end self-end">
-        <div class="flex gap-1 mb-5">
-          <img src="/assets/icons/instagram.svg" alt="" />
-          <img src="/assets/icons/facebook.svg" alt="" />
-          <img src="/assets/icons/twitter.svg" alt="" />
-        </div>
-        <p>fursweet@gmail.com</p>
+
+      <div class="w-1/5 ml-24">
+        <h2 class="font-heading text-2xl mb-6">Support</h2>
+        <ul class="font-thin space-y-2">
+          <li>About Us</li>
+          <li>Careers</li>
+          <li>Blog</li>
+        </ul>
       </div>
+      <div class="w-1/5">
+        <h2 class="font-heading text-2xl mb-6">Useful Link</h2>
+        <ul class="font-thin space-y-2">
+          <li>Payment & Tax</li>
+          <li>Team of service</li>
+          <li>Privaci Policy</li>
+        </ul>
+      </div>
+      <div class="w-1/5">
+        <h2 class="font-heading text-2xl mb-6">Our Menu</h2>
+        <ul class="font-thin space-y-2">
+          <li>Best Product</li>
+          <li>Category</li>
+          <li>About</li>
+          <li>Blog</li>
+        </ul>
+      </div>
+      <div class="w-1/5">
+        <h2 class="font-heading text-2xl mb-6">Address</h2>
+        <ul class="font-thin space-y-2">
+          <li>JL. Setiabudhi No. 193 Sukasari, Bandung West Java, Indonesia</li>
+          <li>hallo@daunku.com</li>
+        </ul>
+      </div>
+    </Container>
+    <Container>
+      <hr class="border-white border w-full" />
+      <p class="text-center pt-14 pb-24">© 2022 Daunku - All rights reserved.</p>
     </Container>
   </footer>
 </template>
