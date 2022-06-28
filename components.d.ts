@@ -7,6 +7,8 @@ declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     Benefit: typeof import('./src/components/pages/LandingPage/sections/Benefit/index.vue')['default']
     BenefitItem: typeof import('./src/components/pages/LandingPage/sections/Benefit/BenefitItem.vue')['default']
+    CollectionImage: typeof import('./src/components/elements/CollectionImage.vue')['default']
+    CollectionItem: typeof import('./src/components/elements/CollectionItem.vue')['default']
     Collections: typeof import('./src/components/pages/LandingPage/sections/Collections.vue')['default']
     Container: typeof import('./src/components/elements/Container.vue')['default']
     Decor: typeof import('./src/components/pages/LandingPage/sections/Decor.vue')['default']
@@ -19,6 +21,7 @@ declare module '@vue/runtime-core' {
     PlantCircleButton: typeof import('./src/components/elements/PlantCircleButton.vue')['default']
     Product: typeof import('./src/components/pages/LandingPage/sections/Product.vue')['default']
     ProductCard: typeof import('./src/components/elements/ProductCard.vue')['default']
+    Sections: typeof import('./src/components/pages/LandingPage/sections/index.vue')['default']
     Subcribe: typeof import('./src/components/pages/LandingPage/sections/Subcribe.vue')['default']
     UnsupportPlatform: typeof import('./src/components/elements/UnsupportPlatform.vue')['default']
   }

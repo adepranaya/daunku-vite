@@ -6,7 +6,7 @@
         <div class="relative w-full flex mt-8">
           <input
             type="text"
-            class="bg-white/20 py-4 pl-7 pr-32 border-white rounded-full border w-full"
+            class="bg-white/20 py-4 px-7 border-white rounded-full border w-full focus:outline-none focus:border-primary1 focus:ring-primary1 focus:ring-1"
             placeholder="Enter your email"
           />
           <button
@@ -52,7 +52,7 @@
     </Container>
     <Container>
       <hr class="border-white border w-full" />
-      <p class="text-center pt-14 pb-24">© 2022 Daunku - All rights reserved.</p>
+      <p class="text-center pt-14 pb-24">© {{ new Date().getFullYear() }} Daunku - All rights reserved.</p>
     </Container>
   </footer>
 </template>

@@ -17,7 +17,7 @@
       <div class="relative w-1/3 flex">
         <input
           type="text"
-          class="bg-white/20 py-4 px-7 border-white rounded-full border w-full"
+          class="bg-white/20 py-4 px-7 border-white rounded-full border w-full focus:outline-none focus:border-primary1 focus:ring-primary1 focus:ring-1"
           placeholder="Search Plant"
         />
         <button

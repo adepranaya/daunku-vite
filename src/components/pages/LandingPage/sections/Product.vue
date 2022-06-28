@@ -34,8 +34,8 @@ let productDummies = [
         Best seller <br />product
       </h2>
       <div>
-        <a href="#" class="pr-10 py-4 flex items-center gap-4 text-gray-700">
-          See all colection <img src="/assets/icons/arrow-right.svg" alt="" />
+        <a href="#" class="pr-10 py-4 inline-flex items-center gap-4 text-gray-700 group">
+          See all colection <img src="/assets/icons/arrow-right.svg" alt=""  class="group-hover:translate-x-10 transition ease-in-out"/>
         </a>
       </div>
     </div>
